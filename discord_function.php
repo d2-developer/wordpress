@@ -55,7 +55,7 @@
 						$dbOption[$ChannelID] = $message->id;
 					}
 					wp_set_post_tags($post_id, 'stock');
-				}
+				} 
 			}
 		}
 		update_option('bws_news_last_message', serialize($dbOption));
